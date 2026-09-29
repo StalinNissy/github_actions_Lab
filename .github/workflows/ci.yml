@@ -1,4 +1,4 @@
-nname: CI/CD Pipeline
+name: CI/CD Pipeline
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout codegit
         uses: actions/checkout@v4
 
       - name: Setup Node.js
